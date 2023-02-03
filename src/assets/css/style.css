@@ -1,0 +1,23 @@
+.buca-color{
+    background-color:#c31717;
+    color:white;
+}
+
+.buca-card{
+    background-color:#c31717;
+}
+
+.text-buca-theme{
+    color:#c31717;
+}
+
+.text-buca-theme-soft{
+
+    background-color: red;
+}
+.text-buca-secondary{
+    color:white;
+}
+.text-buca-secondary:hover{
+    color:chartreuse
+}
