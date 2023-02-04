@@ -1,4 +1,4 @@
-import buca from "./assets/images/buca.jpg";
+import buca from "../assets/images/buca.jpg";
 const Login=()=>{
 
   return(
