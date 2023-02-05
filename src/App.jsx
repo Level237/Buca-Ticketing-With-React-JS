@@ -1,5 +1,6 @@
 import './assets/css/themes/themes.css';
 import './assets/css/style.css';
+import './App.css';
 import Login from './pages/Login';
 import Dashboard from './pages/dashboard';
 
