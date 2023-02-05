@@ -1,20 +1,21 @@
 import DropDown from "./DropDown";
-const MenuItems=()=>{
+const MenuItems=({items})=>{
 
     return (
+        
         <li className="nav-item dropdown">
                 {items.submenu ? (
                     <>
-                    <a class="nav-link active" href={menu.url}>
-                                    {menu.svg}
-                                    <span class="text-buca-secondary -bottom-3">{menu.title}</span>
+                    <a className="nav-link" href='#tasksCollapse' data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="pagesCollapse">
+                                    
+                                    <span class="text-buca-secondary -bottom-3">{items.title}</span>
                                 </a>
                                 <DropDown submenus={items.submenu}/>
                     </>
                 ):(
-                    <a class="nav-link active" href={menu.url}>
-                                    {menu.svg}
-                                    <span class="text-buca-secondary -bottom-3">{menu.title}</span>
+                    <a className="nav-link" href={items.url}>
+                                    
+                                    <span class="text-buca-secondary -bottom-3">{items.title}</span>
                                 </a>
                 )}
                                     

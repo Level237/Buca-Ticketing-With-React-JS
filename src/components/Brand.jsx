@@ -3,7 +3,7 @@ const Brand=({width,height})=>{
 
     return (
         <a className="navbar-brand">
-            <img src={buca} width={width} height={height}/>
+            <img src={buca} width={width} height={height}/><span style={{ color:`white` }}>Buca Voyage Douala</span>
         </a>
     )
 }

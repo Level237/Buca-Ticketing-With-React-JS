@@ -1,14 +1,14 @@
-import Brand from "../../../components/Brand";
+import Brand from "../../../../components/Brand";
 import { menuItems } from "../../../../features/dashboard/utils/menuItems";
 import MenuItems from "./components/MenuItems";
 const NavBar=()=>{
 
     return (
-        <>
-        <nav>
+        
+        <nav className="navbar navbar-vertical navbar-expand-lg scrollbar buca-color navbar-dark">
             <div className="container-fluid">
-                <Brand width="19" height="25" />
-            </div>
+                <Brand width="70" height="70" />
+            
             <div className="collapse navbar-collapse" id="sidenavCollapse">
                 <ul className="navbar-nav mb-lg-7">
                     
@@ -17,9 +17,10 @@ const NavBar=()=>{
                         })}
                     
                 </ul>
+                </div>
             </div>
         </nav>
-        </>
+        
     )
 }
 
