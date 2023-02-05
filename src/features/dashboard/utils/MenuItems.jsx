@@ -1,0 +1,26 @@
+export const MenuItems=[
+    {
+        title:'Dashboard',
+        url:'/dashboard'
+    },
+    {
+        title:'Tickets',
+        url:'/tickets'
+    },
+    {
+        title:'Bordereau',
+        url:'/bordereau'
+    },
+    {
+        title:'Voyages',
+        url:'/travels'
+    },
+    {
+        title:'Passagers',
+        url:'/passengers'
+    },
+    {
+        title:'Bus',
+        url:'/bus'
+    }
+]
