@@ -1,5 +1,6 @@
 import NavBar from "./parts/navBar"
 import Header from "./parts/Header";
+import Main from "./main";
 const Dashboard=()=>{
 
     return (
@@ -9,6 +10,7 @@ const Dashboard=()=>{
         <NavBar/>
         <main>
         <Header/>
+        <Main/>
         </main>
        
         </>
