@@ -1,9 +1,12 @@
+import buca from "../../../assets/images/buca.jpg";
 const LanguageSwitcher=()=>{
 
     return (
-        <div class="dropdown">
+
+        <>
+        <div>
                         <a href="javascript: void(0);" class="dropdown-toggle no-arrow d-flex align-items-center justify-content-center bg-white rounded-circle shadow-sm mx-1 mx-lg-2 w-40px h-40px" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">
-                            <span class="avatar avatar-circle avatar-xxs"><img class="avatar-img" src="{{asset('assets/svg/fr.svg')}}" alt="..." width="18" height="18"/></span>
+                            <span class="avatar avatar-circle avatar-xxs"><img class="avatar-img" src={buca} alt="..." style={{ width: `18`,height:`18` }} /></span>
                         </a>
 
                         <ul class="dropdown-menu dropdown-menu-end">
@@ -25,6 +28,8 @@ const LanguageSwitcher=()=>{
 
                         </ul>
                     </div>
+        </>
+        
     )
 }
 export default LanguageSwitcher;

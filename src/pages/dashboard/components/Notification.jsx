@@ -1,5 +1,13 @@
+import { GrNotification} from 'react-icons/gr';
 const Notification=()=>{
     return (
+        <>
+        <a class="d-flex align-items-center justify-content-center bg-white rounded-circle shadow-sm mx-1 mx-lg-2 w-40px h-40px position-relative link-secondary" data-bs-toggle="offcanvas" href="#offcanvasNotifications" role="button" aria-controls="offcanvasNotifications">
+                       <GrNotification/>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger">
+                            2<span class="visually-hidden">Messages non lues</span>
+                        </span>
+                    </a>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNotifications" aria-labelledby="offcanvasNotificationsLabel">
                         <div class="offcanvas-header px-5">
                             <h3 class="offcanvas-title" id="offcanvasNotificationsLabel">Notifications</h3>
@@ -51,6 +59,8 @@ const Notification=()=>{
                             </div>
                         </div>
                     </div>
+        </>
+        
     )
 }
 export default Notification;

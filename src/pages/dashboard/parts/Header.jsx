@@ -15,8 +15,9 @@ const Header=()=>{
                 <LanguageSwitcher/>
                 <div class="vr bg-gray-700 mx-2 mx-lg-3"></div>
                 <Notification/>
-                <div class="vr bg-gray-700 mx-2 mx-lg-3"></div>
                 <ProfileUser/>
+                <div class="vr bg-gray-700 mx-2 mx-lg-3"></div>
+                
             </div>
         </header>
     )

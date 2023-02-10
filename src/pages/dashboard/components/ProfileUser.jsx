@@ -1,10 +1,11 @@
+import buca from "../../../assets/images/buca.jpg";
 const ProfileUser=()=>{
 
     return (
-        <div class="dropdown">
+        <div>
                         <a href="javascript: void(0);" class="dropdown-toggle no-arrow d-flex align-items-center justify-content-center bg-white rounded-circle shadow-sm mx-1 mx-lg-2 w-40px h-40px" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">
                             <div class="avatar avatar-circle avatar-sm avatar-online">
-                                <img src="{{asset('assets/img/buca.jpg')}}" alt="..." class="avatar-img" width="40" height="40"/>
+                                <img src={buca} alt="..." class="avatar-img" width="40" height="40"/>
                             </div>
                         </a>
 
